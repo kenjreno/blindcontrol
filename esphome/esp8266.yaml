@@ -28,11 +28,11 @@ preferences:
 dashboard_import:
   package_import_url: github://kenjreno/blindcontrol/esphome/esp8266.yaml@main
 
-#packages:
-#  remote_package:
-#    url: https://github.com/kenjreno/blindcontroller
-#    files: [base.yaml]
-#    refresh: 1s
+packages:
+ remote_package:
+   url: https://github.com/kenjreno/blindcontrol
+   files: [esp8266.yaml]
+   refresh: 1s
 
 # Sync time with Home Assistant.
 time:
