@@ -38,7 +38,7 @@ dashboard_import:
 time:
   - platform: homeassistant
     id: homeassistant_time
-	
+    
 api:
 ota:
 improv_serial:
