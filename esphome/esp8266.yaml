@@ -6,7 +6,7 @@ substitutions:
   name: mkblinds
   friendly_name: "MK-Smarthouse Blinds"
   project_name: "kenjreno.blindcontroller"
-  project_version: "1.0"
+  project_version: "0.0.1"
   
 web_server:
   
