@@ -33,7 +33,7 @@ dashboard_import:
 #    url: https://github.com/kenjreno/blindcontroller
 #    files: [base.yaml]
 #    refresh: 1s
-	
+
 # Sync time with Home Assistant.
 time:
   - platform: homeassistant
