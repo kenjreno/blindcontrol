@@ -9,9 +9,9 @@ substitutions:
   project_name: "kenjreno.blindcontroller"
   project_version: "0.0.1"
   
- esp8266:
-   board: ${board}
-   restore_from_flash: true
+esp8266:
+  board: ${board}
+  restore_from_flash: true
 
 # # preferences:
 # #   flash_write_interval: 1min
