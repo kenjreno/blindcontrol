@@ -1,7 +1,4 @@
 ---
-##
-## https://www.mksmarthouse.com/products/blinds-control
-##
 substitutions:
   board: esp12e
   wifi_reboot_timeout: 5min
