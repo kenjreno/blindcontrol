@@ -26,7 +26,7 @@ preferences:
   flash_write_interval: 1min
   
 dashboard_import:
-  package_import_url: github://kenjreno/blindcontrol/esphome/esp8266.yaml@main
+  package_import_url: github://kenjreno/blindcontrol/esphome/esp8267.yaml@main
 
 #packages:
 #  remote_package:
