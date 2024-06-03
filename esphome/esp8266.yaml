@@ -17,12 +17,12 @@ esphome:
   project:
     name: kenjreno.blindcontroller
     version: 0.0.1
-esp8266:
-  board: esp-12e
-  restore_from_flash: true
+# esp8266:
+#   board: esp-12e
+#   restore_from_flash: true
 
-preferences:
-  flash_write_interval: 1min
+# preferences:
+#   flash_write_interval: 1min
   
 dashboard_import:
   package_import_url: github://kenjreno/blindcontrol/esphome/esp8266.yaml@main
@@ -33,14 +33,14 @@ packages:
    files: [esphome/esp8266.yaml]
    refresh: 1s
 
-# Sync time with Home Assistant.
-time:
-  - platform: homeassistant
-    id: homeassistant_time
+# # Sync time with Home Assistant.
+# time:
+#   - platform: homeassistant
+#     id: homeassistant_time
     
 api:
 ota:
-improv_serial:
+# improv_serial:
 wifi:
   ap:
 captive_portal:  
