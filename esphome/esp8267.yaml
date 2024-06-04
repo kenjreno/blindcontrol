@@ -235,4 +235,3 @@ switch:
       - globals.set:
           id: fast_mode
           value: 'false'
-    
