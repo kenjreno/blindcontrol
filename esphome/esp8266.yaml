@@ -1,4 +1,4 @@
---
+---
 ##
 ## https://www.mksmarthouse.com/products/blinds-control
 ##
@@ -6,7 +6,7 @@ substitutions:
   name: mkblinds
   friendly_name: "MK-Smarthouse Blinds"
   project_name: "kenjreno.blindcontroller"
-  project_version: "0.0.3"
+  project_version: "0.0.1"
   
 web_server:
   
@@ -28,11 +28,11 @@ preferences:
 dashboard_import:
   package_import_url: github://kenjreno/blindcontrol/esphome/esp8267.yaml@main
 
-packages:
- remote_package:
-   url: https://github.com/kenjreno/blindcontroller
-   files: [esphome/esp8266.yaml]
-   refresh: 1s
+#packages:
+#  remote_package:
+#    url: https://github.com/kenjreno/blindcontroller
+#    files: [base.yaml]
+#    refresh: 1s
 
 # Sync time with Home Assistant.
 time:
