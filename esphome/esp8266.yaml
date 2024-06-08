@@ -150,7 +150,12 @@ cover:
           id: mkblind_blind
           state: OPEN
           current_operation: IDLE
-
+      - delay: 3s
+      - servo.detach:
+          id: mkblind_servo_0_fast
+      - servo.detach:
+          id: mkblind_servo_0_slow
+          
     close_action:
       - logger.log: "Closing"
       - cover.template.publish:
@@ -172,6 +177,11 @@ cover:
           id: mkblind_blind
           state: CLOSED
           current_operation: IDLE
+      - delay: 3s
+      - servo.detach:
+          id: mkblind_servo_0_fast
+      - servo.detach:
+          id: mkblind_servo_0_slow          
 
     stop_action:
       - logger.log: "Stopping"
